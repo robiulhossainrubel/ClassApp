@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tool"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ICE 11th"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/eroll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/et_bg"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="#000"
+            android:hint="Your ID"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/elogin"
+        android:layout_width="200dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_marginTop="360dp"
+        />
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="No of incorrect attempts"
+
+        />
+
+    <TextView
+        android:id="@+id/guest"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:textSize="18sp"
+        android:text="Login as a Guest"
+        />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ads_banner"/>
+
+
+
+</RelativeLayout>

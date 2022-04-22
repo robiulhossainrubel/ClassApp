@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">PUSTICE</string>
+    <string name="ap_link">https://play.google.com/store/apps</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_id">ca-app-pub-9045909987288612~4332244133</string>
+
+    <string name="ads_banner">ca-app-pub-9045909987288612/4842190655</string>
+    <string name="ads_initial">ca-app-pub-9045909987288612/7130222894</string>
+    <string name="ads_reward">ca-app-pub-9045909987288612/1877896219</string>
+
+
+    <string-array name="studentsArray">
+        <item>Mitu Rani Kundu</item>
+        <item>MD. ZAMIUL ISLAM</item>
+        <item>MD. ATIKUR RAHMAN</item>
+        <item>MD. ABDUL MATIN</item>
+        <item>MD. OMAR FARUK</item>
+        <item>MD. SAGOR MIA</item>
+        <item>MD. RASHIDUL ISLAM</item>
+        <item>MD. MASUD RANA</item>
+        <item>MD. RAHATUL RABBI</item>
+        <item>MD. SHA ALAM</item>
+        <item>MD. MEHEDI HASAN</item>
+        <item>MD. ARIF HOSSAIN</item>
+        <item>MD. MAHFUZUR RAHMAN</item>
+        <item>ROBIUL HOSSAIN RUBEL</item>
+        <item>MD. IMRAN HOSSAIN</item>
+        <item>MD. NAIM HOSSAIN</item>
+        <item>SHAHANUR RAHMAN</item>
+        <item>MD. MIZANUR RAHMAN</item>
+        <item>SAGOR SARDER</item>
+        <item>SUMAIYA KHATUN</item>
+        <item>MD. SHAHADAT HOSSAIN BHUIAN</item>
+        <item>MD IMRAN HOSSAIN</item>
+        <item>MD SAGOR MOLLAH</item>
+        <item>Z. H. M. KHAIRUL BASAR</item>
+        <item>MD. SAKIB HASAN</item>
+        <item>MD RAKIBU ZZAMAN</item>
+        <item>ABDUL HALIM</item>
+        <item>MD. RIFAT SARKAR</item>
+        <item>MONJURUL ALAM</item>
+        <item>SAYMA SADIA</item>
+        <item>MD. SOHAG HOSSAIN</item>
+        <item>JANNATUL NAYEM</item>
+        <item>MD. SHAHINUR</item>
+        <item>MD MEHEDI HASAN</item>
+        <item>JOY SAHA</item>
+        <item>MD. SHARIF AHAMMED</item>
+        <item>FARIHA MAHZABIN</item>
+        <item>SHOAIB AHMAD</item>
+        <item>MD. MAHFUZUR RAHMAN</item>
+        <item>SHAHINUL ISLAM</item>
+        <item>Rashed</item>
+        <item>A.S.M. Mottssem Billah</item>
+        <item>Md Mofazzal Hossain</item>
+
+    </string-array>
+
+
+
+    <string name="title_activity_aboutdev">AboutdevActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="activity_title_home">Notes</string>
+    <string name="msg_no_notes">No notes found !</string>
+    <string name="lbl_new_note_title">New Note</string>
+    <string name="lbl_edit_note_title">Edit Note</string>
+    <string name="hint_enter_note">Enter your note!</string>
+
+
+</resources>

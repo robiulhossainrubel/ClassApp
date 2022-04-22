@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="1dp"
+    android:paddingLeft="1dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#4BCACA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        android:layout_margin="12dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/clsttl"
+                android:layout_marginTop="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:text="Applied Electricity and Magnetism Sessional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/clscd"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:text="ICE1101"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight=".2"
+                android:src="@drawable/ic_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/clstm"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:text="08:45AM-11:10AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:textSize="18dp"
+                    android:text="Teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/techcd"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/t1"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="TNT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rtlay"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:textSize="18dp"
+                    android:text="Room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/roomno"
+                    android:layout_below="@+id/t2"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="503"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/alarm"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_alarm"/>
+
+            <TextView
+                android:id="@+id/option"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_alignParentRight="true"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#fff"
+                android:text="&#8942;"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

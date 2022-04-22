@@ -40,6 +40,7 @@ public class AboutdevActivity extends AppCompatActivity {
             }
         });
 
+        //Ads
         mAdView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
